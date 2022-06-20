@@ -10,6 +10,7 @@ class SubscriberController extends Controller
     public function __invoke(Request $request)
     {
         Log::info($request->all());
+        //ALL IMPLEMENTATION SHOULD HAPPEN HERE
     }
     
 }
