@@ -6,25 +6,22 @@ This is a Pub/Sub System aimed to create subscription of all events of topics an
 
 ## Tools and Languages
 
-* Laravel 
-* Redis
+* Laravel - Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation — freeing you to create without sweating the small things. 
+
+* Redis- The open source, in-memory data store used by millions of developers as a database, cache, streaming engine, and message broker.
 
 
 ### Features
 * Create  subscription to all events of topics
 * Publishing event to a topic
 
-## Tools and Languages
-
-* Laravel 
-* Redis
 
 
 Clone the project
 
 ```sh
 git clone https://github.com/devsahm/Pub-Sub-System
-cd notifier
+cd ulession-task
 composer install
 ```
 
