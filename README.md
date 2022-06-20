@@ -13,7 +13,6 @@ This is a Pub/Sub System aimed to create subscription of all events of topics an
 ### Features
 * Create  subscription to all events of topics
 * Publishing event to a topic
-* Subscriber endpoints getting notifications of published topics
 
 ## Tools and Languages
 
