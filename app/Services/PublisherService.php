@@ -3,6 +3,7 @@
 namespace App\Services;
 
 use App\Jobs\PublishSubscriptionJob;
+use ErrorException;
 use Illuminate\Support\Facades\Redis;
 
 class PublisherService
@@ -18,8 +19,13 @@ class PublisherService
     {
      
         try {
-           $subscribers = $this->redis->lRange($topic, 0, -1);    
-           PublishSubscriptionJob::dispatch($subscribers, $requestBody);
+
+            if (empty($requestBody)) {
+                throw new ErrorException('the request body is required', 400);
+              }
+                $subscribers = $this->redis->lRange($topic, 0, -1);    
+                PublishSubscriptionJob::dispatch($subscribers, $requestBody);
+                
         } catch (\Throwable $th) {
             throw $th;
         }

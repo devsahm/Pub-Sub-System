@@ -32,12 +32,12 @@ class SubscriptionService
         }
     }
 
-    private function isExist($key) : bool
+    public function isExist($key) : bool
     {
         return $this->redis->exists($key);
     }
 
-    private function createSubscription(string $topic, string $url)
+    public function createSubscription(string $topic, string $url)
     {
        $this->redis->rPush($topic, $url);
        return true;
