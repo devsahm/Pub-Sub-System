@@ -49,5 +49,5 @@ php artisan queue:work
 
 ### Documentation
 
-The Postman collection is at the root of the project directory
+The Postman collection is at the root of the project directory or get it [HERE](https://www.postman.com/grey-astronaut-712750/workspace/task/collection/19699896-f4643571-b6e1-4740-97f6-a0e2ec08adf4?action=share&creator=19699896)
 
