@@ -11,7 +11,7 @@ This is a Pub/Sub System aimed to create subscription of all events of topics an
 * Redis- The open source, in-memory data store used by millions of developers as a database, cache, streaming engine, and message broker.
 
 
-### Features
+## Features
 * Create  subscription to all events of topics
 * Publishing event to a topic
 
@@ -46,3 +46,8 @@ Start queue
 ```sh
 php artisan queue:work
 ```
+
+### Documentation
+
+The Postman collection is at the root of the project directory
+
