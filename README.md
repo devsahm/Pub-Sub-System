@@ -42,6 +42,14 @@ Start the subscriber server also using any port ( --port=)
 php artisan serve --port=8000
 ```
 
+Run Test
+
+```sh
+php artisan test
+```
+
+
+
 Start queue 
 ```sh
 php artisan queue:work
