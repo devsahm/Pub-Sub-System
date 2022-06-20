@@ -4,7 +4,7 @@ This is a Pub/Sub System aimed to create subscription of all events of topics an
 
 
 
-## Tools and Languages
+## Stack
 
 * Laravel - Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation — freeing you to create without sweating the small things. 
 
